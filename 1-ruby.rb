@@ -51,7 +51,7 @@ class User
   end
 end
 
-def Admin < User
+class Admin < User
   def nickname
     "ADMIN-#{super}"
   end
